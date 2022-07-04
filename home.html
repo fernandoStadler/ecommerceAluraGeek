@@ -10,9 +10,7 @@
 </head>
 
 <body>
-    <style>
- 
-    </style>
+
     <nav class="navbar">
         <section class="desktop-nav">
             <div class="logo">
@@ -32,7 +30,7 @@
         </section>
         <section class="mobile-nav">
             <img src="assets/img/Logo.png" alt="logo">
-            <button type="button" id="btnLogin" class="btn-prim">Login</button>
+            <button type="button" id="btnLogin" class="btn-login">Login</button>
             <button type="button" id="btnSearch" class="btn-search"><i
                     class="fa-solid fa-magnifying-glass"></i></button>
         </section>
@@ -55,7 +53,7 @@
                     <h2>Star Wars</h2>
                 </div>
                 <div class="product-btn">
-                    <button class="btn-link">Ver tudo</button>
+                    <button class="btn-link">Ver tudo <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
             <div class="group-cards">
@@ -83,7 +81,7 @@
                     <picture class="tumb">
                         <img src="assets/img/product-1.png">
                     </picture>
-                    <div class="description-card">
+                    <div class="description">
                         <small>Produto XYZ</small>
                         <p><strong>R$15,00</strong></p>
                         <button class="btn-link">Ver produto</button>
@@ -116,7 +114,7 @@
                     <h2>Consoles</h2>
                 </div>
                 <div class="product-btn">
-                    <button class="btn-link">Ver tudo</button>
+                    <button class="btn-link">Ver tudo <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
             <div class="group-cards">
@@ -177,7 +175,7 @@
                     <h2>Diversos</h2>
                 </div>
                 <div class="product-btn">
-                    <button class="btn-link">Ver tudo</button>
+                    <button class="btn-link">Ver tudo <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
             <div class="group-cards">
@@ -232,9 +230,70 @@
                     </div>
                 </div>
             </div>
-
         </section>
     </main>
+    <style>
+        .footer-container{
+            display: flex;
+            width: 100vw;
+            background-color: #eaf2fd;
+            justify-content: center;
+
+        }
+        .footer{
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 64px;
+
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap:10px
+        }
+        .developer-info{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 102px;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+        }
+    </style>
+    <footer>
+        <section class="footer-container">
+            <div class="footer">
+
+                <div class="logo">
+                    <img src="assets/img/Logo.png" alt="" srcset="">
+                </div>
+            <div class="links">
+                <nav>
+                    <ul>
+                        <li><a href="http://">a</a> </li>
+                        <li><a href="http://">b</a> </li>
+                        <li><a href="http://">c</a> </li>
+                        <li><a href="http://">d</a> </li>
+                        <li><a href="http://">e</a> </li>
+                        <li><a href="http://">f</a> </li>
+                    </ul>
+                </nav>
+            </div>
+                <form class="form">
+                    <label>Fale conosco</label>
+                    <input type="text"  name="name" placeholder="Nome"/>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                </form>
+            </div>
+        </section>
+        <section class="developer-info">
+            <p>Desenvolvido por Fernando Stadler</p>
+            <p>2022</p>
+        </section>
+    </footer>
     <script src="javascript/api/data.js"></script>
     <script src="javascript/app/index.js"></script>
     <script src="https://kit.fontawesome.com/67f504bb87.js" crossorigin="anonymous"></script>
