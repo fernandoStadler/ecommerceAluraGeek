@@ -32,11 +32,12 @@ main {
     height: 115px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-direction: row;
     gap: 10px;
 }
-
+.justify-content {
+    justify-content: space-between;
+}
 .search {
     width: 393px;
     height: 40px;
@@ -88,6 +89,7 @@ fa-solid {
     border: 1px solid #2a7ae4;
     border-radius: 10px;
     color: #2a7ae4;
+    cursor: pointer;
 }
 
 /* .mobile-nav config */
@@ -320,5 +322,13 @@ fa-solid {
     }
     .btn-send{
         width: 100%;
+    }
+
+    /* login */
+    .input-login{
+        Width: 80vw !important;;
+    }
+    .btn-enter {
+        Width: 80vw !important;;
     }
 }

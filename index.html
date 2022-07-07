@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +7,9 @@
     <link rel="stylesheet" href="assets/style/global.css">
     <title>Alura Geek</title>
 </head>
-
 <body>
-
     <nav class="navbar">
-        <section class="desktop-nav">
+        <section class="desktop-nav justify-content">
             <div class="logo">
                 <img src="assets/img/Logo.png" alt="logo">
             </div>
@@ -25,7 +22,9 @@
                 </span>
             </div>
             <div class="btn-login">
-                <button type="button" id="btnLogin" class="btn-login">Login</button>
+                <a href="login.html">
+                    <button type="button" id="btnLogin" class="btn-login">Login</button>
+                </a>
             </div>
         </section>
         <section class="mobile-nav">
@@ -108,7 +107,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="product-header">
                 <div class="product-category">
                     <h2>Consoles</h2>
@@ -169,7 +167,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="product-header">
                 <div class="product-category">
                     <h2>Diversos</h2>
@@ -232,39 +229,12 @@
             </div>
         </section>
     </main>
-    <style>
-    
-
-    </style>
     <footer>
-        <footer>
-            <div class="footer">
-                <div class="logo">
-                    <img src="assets/img/Logo.png" alt="" srcset="">
-                </div>
-                <div class="links">
-                    <a href="#">Quem somos nós</a>
-                    <a href="#">Politica de privacidade</a>
-                    <a href="#">Programa de fidelidade</a>
-                    <a href="#">Nossas lojas</a>
-                    <a href="#">Quero ser franqueado</a>
-                    <a href="#">Anuncie aqui</a>
-                </div>
-                <form class="contact-form">
-                    <input type="text" name="" id="name" placeholder="Nome">
-                    <textarea type="text" id="msg" cols="30" rows="10" placeholder="Escreva a sua mensagem"></textarea>
-                    <button class="btn-send">blablabla</button>
-                </form>
-            </div>
-        </footer>
-    
-        <section class="developer-info">
-            <p>Desenvolvido por Fernando Stadler</p>
-            <p>2022</p>
-        </section>
+        <!-- footer carregado via js -->
     </footer>
     <script src="javascript/api/data.js"></script>
     <script src="javascript/app/index.js"></script>
+    <script src="javascript/app/footer.js"></script>
     <script src="https://kit.fontawesome.com/67f504bb87.js" crossorigin="anonymous"></script>
 </body>
 </html>

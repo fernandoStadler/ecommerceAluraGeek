@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,13 +10,12 @@
 </head>
 
 <body>
-    <style>
- 
-    </style>
     <nav class="navbar">
         <section class="desktop-nav">
             <div class="logo">
-                <img src="assets/img/Logo.png" alt="logo">
+                <a href="index.html">
+                    <img src="assets/img/Logo.png" alt="logo">
+                </a>
             </div>
             <div class="search">
                 <input type="search" name="search" id="input-search" class="input-search"
@@ -26,217 +25,74 @@
                             class="fa-solid fa-magnifying-glass"></i></button>
                 </span>
             </div>
-            <div class="btn-login">
-                <button type="button" id="btnLogin" class="btn-login">Login</button>
-            </div>
         </section>
         <section class="mobile-nav">
             <img src="assets/img/Logo.png" alt="logo">
-            <button type="button" id="btnLogin" class="btn-prim">Login</button>
+
             <button type="button" id="btnSearch" class="btn-search"><i
                     class="fa-solid fa-magnifying-glass"></i></button>
         </section>
     </nav>
-    <header>
-        <section class="banner">
-            <div class="text-banner">
-                <h2>Dezembro Promocional</h2>
-                <p>Produtos selecionados com até 33% de desconto</p>
-                <a href="https://www.google.com" target="_blank">
-                    <button class="btn-primary">Ver Consoles</button>
-                </a>
-            </div>
-        </section>
-    </header>
     <main>
-        <section class="display-products">
-            <div class="product-header">
-                <div class="product-category">
-                    <h2>Star Wars</h2>
-                </div>
-                <div class="product-btn">
-                    <button class="btn-link">Ver tudo</button>
-                </div>
-            </div>
-            <div class="group-cards">
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description-card">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-            </div>
+        <style>
+            .login {
+                display: flex;
+                width: 100vw;
+                height: 50vh;
+                justify-content: center;
+                align-items: center;
+            }
+            .login-form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .login-title{
+                display: block;
+                width: 100%;
+                font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+            }
+            .input-login {
+                Width: 400px;
+                Height: 30px;
+                padding: 6px;
+                border: none;
+                border-radius: 5px;
+                outline: none;
+                border-bottom: 1px solid #c8c8c8;
+            }
 
-            <div class="product-header">
-                <div class="product-category">
-                    <h2>Consoles</h2>
+            .btn-enter {
+                width: 410px;
+                height: 62px;
+                background-color: #2a7ae4;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                cursor: pointer;
+            }
+        </style>
+        <section class="login">
+            <form class="login-form"> 
+                <div class="login-title">
+                    <p>Iniciar Sessão</p>
                 </div>
-                <div class="product-btn">
-                    <button class="btn-link">Ver tudo</button>
-                </div>
-            </div>
-            <div class="group-cards">
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-header">
-                <div class="product-category">
-                    <h2>Diversos</h2>
-                </div>
-                <div class="product-btn">
-                    <button class="btn-link">Ver tudo</button>
-                </div>
-            </div>
-            <div class="group-cards">
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture class="tumb">
-                        <img src="assets/img/product-1.png">
-                    </picture>
-                    <div class="description">
-                        <small>Produto XYZ</small>
-                        <p><strong>R$15,00</strong></p>
-                        <button class="btn-link">Ver produto</button>
-                    </div>
-                </div>
-            </div>
-
+                    <input type="email" class="input-login" id="login" placeholder="Escreva o seu e-mail">
+                <input type="password" class="input-login" id="password" placeholder="Escreva o sua senha">
+                <button class="btn-enter">Entrar</button>
+            </form>
         </section>
     </main>
+    <footer>
+        <!-- footer carregado via js -->
+    </footer>
     <script src="javascript/api/data.js"></script>
     <script src="javascript/app/index.js"></script>
+    <script src="javascript/app/footer.js"></script>
     <script src="https://kit.fontawesome.com/67f504bb87.js" crossorigin="anonymous"></script>
 </body>
 

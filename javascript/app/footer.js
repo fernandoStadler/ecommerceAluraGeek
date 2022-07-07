@@ -1,28 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+let footer = document.querySelector('footer');
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: bisque;
-            height: 100vh;
-            overflow-x: hidden;
-        }
-
-    </style>
-
-    <footer>
+function loadFooter() {
+    footer.innerHTML = `
         <div class="footer">
             <div class="logo">
                 <img src="assets/img/Logo.png" alt="" srcset="">
@@ -38,11 +17,12 @@
             <form class="contact-form">
                 <input type="text" name="" id="name" placeholder="Nome">
                 <textarea type="text" id="msg" cols="30" rows="10" placeholder="Escreva a sua mensagem"></textarea>
-                <button class="btn-send">blablabla</button>
+                <button class="btn-send">Enviar Mensagem</button>
             </form>
-        </div>
-    </footer>
-
-</body>
-
-</html>
+        </div>    
+            <section class="developer-info">
+            <p>Desenvolvido por Fernando Stadler</p>
+            <p>2022</p>
+            </section>
+    `
+} loadFooter();
