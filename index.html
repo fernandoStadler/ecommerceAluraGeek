@@ -1,41 +1,270 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/global.css">
     <title>Alura Geek</title>
 </head>
+
 <body>
+
+    <nav class="navbar">
+        <section class="desktop-nav">
+            <div class="logo">
+                <img src="assets/img/Logo.png" alt="logo">
+            </div>
+            <div class="search">
+                <input type="search" name="search" id="input-search" class="input-search"
+                    placeholder="O que deseja encontrar?" autocomplete="off">
+                <span class="search-icon">
+                    <button type="button" id="btnLogin" class="btn-search"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </span>
+            </div>
+            <div class="btn-login">
+                <button type="button" id="btnLogin" class="btn-login">Login</button>
+            </div>
+        </section>
+        <section class="mobile-nav">
+            <img src="assets/img/Logo.png" alt="logo">
+            <button type="button" id="btnLogin" class="btn-login">Login</button>
+            <button type="button" id="btnSearch" class="btn-search"><i
+                    class="fa-solid fa-magnifying-glass"></i></button>
+        </section>
+    </nav>
+    <header>
+        <section class="banner">
+            <div class="text-banner">
+                <h2>Dezembro Promocional</h2>
+                <p>Produtos selecionados com até 33% de desconto</p>
+                <a href="https://www.google.com" target="_blank">
+                    <button class="btn-primary">Ver Consoles</button>
+                </a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="display-products">
+            <div class="product-header">
+                <div class="product-category">
+                    <h2>Star Wars</h2>
+                </div>
+                <div class="product-btn">
+                    <button class="btn-link">Ver tudo <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="group-cards">
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-header">
+                <div class="product-category">
+                    <h2>Consoles</h2>
+                </div>
+                <div class="product-btn">
+                    <button class="btn-link">Ver tudo <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="group-cards">
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-header">
+                <div class="product-category">
+                    <h2>Diversos</h2>
+                </div>
+                <div class="product-btn">
+                    <button class="btn-link">Ver tudo <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="group-cards">
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture class="tumb">
+                        <img src="assets/img/product-1.png">
+                    </picture>
+                    <div class="description">
+                        <small>Produto XYZ</small>
+                        <p><strong>R$15,00</strong></p>
+                        <button class="btn-link">Ver produto</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-        *{
-            padding: 0;
-            margin: 0;
-        }
-        .container{
-            height: 100vh;
-            width: 100vw;
-            background-image: url(assets/img/loading.gif);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-         
-        }
-        .container label{
-            color: white;
-            text-transform: uppercase;
-            margin-top: 20%;
-            font-family: 'Press Start 2P', cursive;
-            font-size: 20px;
-        }
     
+
     </style>
-    <div class="container">
-        <label class="text">Em breve</label>
-    </div>
+    <footer>
+        <footer>
+            <div class="footer">
+                <div class="logo">
+                    <img src="assets/img/Logo.png" alt="" srcset="">
+                </div>
+                <div class="links">
+                    <a href="#">Quem somos nós</a>
+                    <a href="#">Politica de privacidade</a>
+                    <a href="#">Programa de fidelidade</a>
+                    <a href="#">Nossas lojas</a>
+                    <a href="#">Quero ser franqueado</a>
+                    <a href="#">Anuncie aqui</a>
+                </div>
+                <form class="contact-form">
+                    <input type="text" name="" id="name" placeholder="Nome">
+                    <textarea type="text" id="msg" cols="30" rows="10" placeholder="Escreva a sua mensagem"></textarea>
+                    <button class="btn-send">blablabla</button>
+                </form>
+            </div>
+        </footer>
+    
+        <section class="developer-info">
+            <p>Desenvolvido por Fernando Stadler</p>
+            <p>2022</p>
+        </section>
+    </footer>
+    <script src="javascript/api/data.js"></script>
+    <script src="javascript/app/index.js"></script>
+    <script src="https://kit.fontawesome.com/67f504bb87.js" crossorigin="anonymous"></script>
 </body>
 </html>
