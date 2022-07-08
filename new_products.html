@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/global.css">
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <section class="desktop-nav justify-content">
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="assets/img/Logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="search">
+                <input type="search" name="search" id="input-search" class="input-search"
+                    placeholder="O que deseja encontrar?" autocomplete="off">
+                <span class="search-icon">
+                    <button type="button" id="btnLogin" class="btn-search"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </span>
+            </div>
+            <div class="btn-login">
+                <a href="all_products.html">
+                    <button type="button" id="btnLogin" class="btn-login">Menu administrador</button>
+                </a>
+            </div>
+        </section>
+        <section class="mobile-nav">
+            <img src="assets/img/Logo.png" alt="logo">
+            <button type="button" id="btnLogin" class="btn-login">Menu administrador</button>
+            <button type="button" id="btnSearch" class="btn-search"><i
+                    class="fa-solid fa-magnifying-glass"></i></button>
+        </section>
+    </nav>
+    <main>
+        <style>
+            
+           
+            .login {
+                display: flex;
+                width: 100vw;
+                height: 70vh;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .login-form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .login-title {
+                display: block;
+                width: 100%;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+            }
+
+            .input-login {
+                Width: 400px;
+                Height: 30px;
+                padding: 6px;
+                border: none;
+                border-radius: 5px;
+                outline: none;
+                border-bottom: 1px solid #c8c8c8;
+            }
+
+            .btn-enter {
+                width: 410px;
+                height: 40px;
+                background-color: #2a7ae4;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                cursor: pointer;
+            }
+        </style>
+        <section class="login">
+            <form class="login-form"action="/all_products.html">
+                <div class="login-title"> 
+                    <p>Iniciar Sessão</p>
+                </div>
+                <input type="email" class="input-login" id="login" placeholder="Escreva o seu e-mail">
+                <input type="password" class="input-login" id="password" placeholder="Escreva o sua senha">
+                <input type="email" class="input-login" id="login" placeholder="Escreva o seu e-mail">
+                <input type="password" class="input-login" id="password" placeholder="Escreva o sua senha">
+                <input type="password" class="input-login" id="password" placeholder="Escreva o sua senha">
+                    <button type="submit" class="btn-enter">Adicionar produto</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- footer carregado via js -->
+    </footer>
+    <script src="javascript/api/data.js"></script>
+    <script src="javascript/app/index.js"></script>
+    <script src="javascript/app/footer.js"></script>
+    <script src="https://kit.fontawesome.com/67f504bb87.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -35,13 +35,16 @@
     </nav>
     <main>
         <style>
+            
+           
             .login {
                 display: flex;
                 width: 100vw;
-                height: 50vh;
+                height: 70vh;
                 justify-content: center;
                 align-items: center;
             }
+
             .login-form {
                 display: flex;
                 justify-content: center;
@@ -49,13 +52,15 @@
                 flex-direction: column;
                 gap: 10px;
             }
-            .login-title{
+
+            .login-title {
                 display: block;
                 width: 100%;
                 font-weight: 700;
-font-size: 18px;
-line-height: 21px;
+                font-size: 18px;
+                line-height: 21px;
             }
+
             .input-login {
                 Width: 400px;
                 Height: 30px;
@@ -77,13 +82,13 @@ line-height: 21px;
             }
         </style>
         <section class="login">
-            <form class="login-form"> 
-                <div class="login-title">
+            <form class="login-form"action="/all_products.html">
+                <div class="login-title"> 
                     <p>Iniciar Sessão</p>
                 </div>
-                    <input type="email" class="input-login" id="login" placeholder="Escreva o seu e-mail">
+                <input type="email" class="input-login" id="login" placeholder="Escreva o seu e-mail">
                 <input type="password" class="input-login" id="password" placeholder="Escreva o sua senha">
-                <button class="btn-enter">Entrar</button>
+                    <button type="submit" class="btn-enter">Entrar</button>
             </form>
         </section>
     </main>
