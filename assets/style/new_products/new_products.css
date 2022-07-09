@@ -1,0 +1,47 @@
+   .login {
+       display: flex;
+       width: 100vw;
+       height: 70vh;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .login-form {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       gap: 10px;
+   }
+
+   .login-title {
+       display: block;
+       width: 100%;
+       font-weight: 700;
+       font-size: 18px;
+       line-height: 21px;
+   }
+
+   .input-login {
+       Width: 400px;
+       Height: 30px;
+       padding: 6px;
+       border: none;
+       border-radius: 5px;
+       outline: none;
+       border-bottom: 1px solid #c8c8c8;
+   }
+
+   .btn-enter {
+       width: 410px;
+       height: 40px;
+       background-color: #2a7ae4;
+       border: none;
+       border-radius: 5px;
+       color: white;
+       cursor: pointer;
+   }
+
+   #product_description {
+       height: 56px;
+   }

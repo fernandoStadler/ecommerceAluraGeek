@@ -1,0 +1,16 @@
+.btn-add {
+    background-color: #2a7ae4;
+    color: white;
+    width: 165px;
+    height: 51px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-header {
+    display: flex;
+    width: 85vw;
+    margin: 0 auto;
+    justify-content: space-between;
+}

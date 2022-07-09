@@ -130,7 +130,7 @@ fa-solid {
 
 .product-header {
     display: flex;
-    width: 80%;
+    width: 85vw;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -290,43 +290,50 @@ fa-solid {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-
     }
-    
-  
     .footer{
         display: flex;
         gap: 35px;
-        
-
     }
     .logo{
         display: flex;
         justify-content: center;
         width: 100%;
     }
-    
+
     .links{
         text-align: center;
         width: 100%;    
     }
-
-
     .contact-form{
         width: 100%;
         display: flex;
         justify-content: center;
-    
     }
     .btn-send{
         width: 100%;
     }
-
     /* login */
     .input-login{
-        Width: 80vw !important;;
+        Width: 80vw !important;
     }
     .btn-enter {
-        Width: 80vw !important;;
+        Width: 80vw !important;
+    }
+    /* all products */
+    .add-header{
+        display: flex;
+        flex-wrap: wrap;
+        gap:15px
+    }
+    .product-category h2{
+        display: flex;
+        width: 80vw;
+        justify-content: center;
+    }
+    .product-btn{
+        display: flex;
+        width: 80vw;
+        justify-content: center;
     }
 }
