@@ -16,11 +16,12 @@
             }
 
             .login-title {
-                display: block;
-                width: 100%;
+                display: flex;
+                    width: 100%;
                 font-weight: 700;
                 font-size: 18px;
                 line-height: 21px;
+             
             }
 
             .input-login {

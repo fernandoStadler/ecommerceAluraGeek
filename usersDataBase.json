@@ -1,0 +1,20 @@
+{
+    "users":[
+        {
+            "id": "",
+            "user_name": "",
+            "email": "",
+            "password": "",
+            "admin_state": 0,
+            "active": 1
+        },
+        {
+            "id": "",
+            "user_name": "",
+            "email": "",
+            "password": "",
+            "admin_state": 1,
+            "active": 1
+        }
+    ]   
+}

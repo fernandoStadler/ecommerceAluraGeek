@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+        .modal-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.829);
+            z-index: 2;
+        }
+
+        .modal {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            gap: 50px;
+            border-radius: 50px;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .modal-msg{
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2a7253;
+            text-transform: uppercase;
+        }
+        
+        .btn-confirm {
+            width: 150px;
+            height: 40px;
+            background-color: #2a7253;
+            border:none;
+            border-radius: 15px;
+            color: white;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+    </style>
+    <section class="modal-container" data-modal>
+        <div class="modal">
+            <div class="modal-msg">
+                <p>Produto cadastrado com sucesso!</p>
+            </div>
+            <div class="modal-btn">
+                <button class="btn-confirm"´data-btn_modal>Confirmar</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

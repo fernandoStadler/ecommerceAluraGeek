@@ -17,6 +17,17 @@ main {
     background-color: #f5f5f5;
 }
 
+.hidden{
+    display: none;
+    transition: all 1s;
+}
+.alert {
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    color: red;
+}
+
 .navbar {
     display: flex;
     width: 100vw;
@@ -123,6 +134,9 @@ fa-solid {
     color: white;
 }
 
+.tumb img{
+    width: 250px;
+}
 .display-products {
     width: 90vw;
     margin-top: 64px;
