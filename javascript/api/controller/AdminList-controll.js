@@ -25,9 +25,9 @@ const listProducts = (
         <p><strong>${product_price}</strong></p>
         </div>
         <div class="card-btn">
-        <button class="btn-editar btn-admin"><i
-                class="fa-solid fa-pen-to-square"></i></button>
-        <button class="btn-deleted btn-admin btn-deleted--deletar"><i
+        <button class="btn-editar btn-admin"><a href="/editarProduto.html?id=${id}"><i
+        class="fa-solid fa-pen-to-square"></i></a></button>
+        <button class="btn-deleted btn-admin"><i
                 class="fa-solid fa-trash-can"></i></button>
         </div>
     </div>
@@ -53,7 +53,7 @@ productsSevice.listaProducts()
     })
 
     cardAdmin.addEventListener('click', (event) => {
-        let btnDeletar = event.target.className = 'btn-deleted btn-admin btn-deleted--deletar';
+        let btnDeletar = event.target.className =='fa-solid fa-trash-can';
             if (btnDeletar){
                 const divClient = event.target.closest('[data-id]');
                 let id = divClient.dataset.id;   

@@ -43,9 +43,19 @@
                     class="fa-solid fa-magnifying-glass"></i></button>
         </section>
     </nav>
+    <div class="brand">
+        <p>Editar produto</p>
+    </div>
     <main>
+        <style>
+            .brand{
+                width: 100%;
+                padding: 10px 0px;
+                text-align: center;
+            }
+        </style>
         <section class="login">
-            <form data-form>
+            <form data-form_editar>
                 <div class="login-form">
                     <input type="text" class="input-login" id="url" placeholder="URL da imagem" data-url   autocomplete="off">
                     <input type="text" class="input-login" id="categoria" placeholder="Categoria" data-category  autocomplete="off">
@@ -69,7 +79,7 @@
     <footer>
         <!-- footer carregado via js -->
     </footer>
-    <script type="module" src="javascript/api/controller/AddProduct-controller.js"></script>
+    <script type="module" src="javascript/api/controller/UpdateProduct-controller.js"></script>
     <script src="javascript/app/footer.js"></script>
     <script src="https://kit.fontawesome.com/67f504bb87.js" crossorigin="anonymous"></script>
 </body>
