@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +8,6 @@
     <link rel="stylesheet" href="assets/style/all_products/all_products.css">
     <title>Alura Geek</title>
 </head>
-
 <body>
     <nav class="navbar">
         <section class="desktop-nav">
@@ -32,6 +30,9 @@
                     class="fa-solid fa-magnifying-glass"></i></button>
         </section>
     </nav>
+    <section class="brandCrowd">
+        <div data-brandCrowd_name></div>
+    </section>
     <main>
         <section class="display-products">
             <div class="add-header">
@@ -44,27 +45,6 @@
                     </a>
                 </div>
             </div>
-            <style>
-                .card-btn {
-                    display: flex;
-
-                    padding: 10px;
-
-                    justify-content: start;
-                    align-items: center;
-                    gap: 5px;
-                }
-
-                .btn-admin {
-                    border: none;
-                    cursor: pointer;
-                    font-size: 1.2em;
-                }
-
-                .btn-admin:hover {
-                    color: #2a7ae4;
-                }
-            </style>
             <div class="group-cards" data-card-admin>
 
             </div>
@@ -73,6 +53,8 @@
     <footer>
         <!-- footer carregado via js -->
     </footer>
+    <script src="javascript/app/auth.js"></script>
+    <script src="javascript/app/brandCrowd.js"></script>
     <script type="module" src="javascript/api/controller/AdminList-controll.js"></script>
     <script src="javascript/app/index.js"></script>
     <script src="javascript/app/footer.js"></script>

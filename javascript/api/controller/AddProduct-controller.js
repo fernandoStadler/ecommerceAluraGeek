@@ -20,7 +20,7 @@ form.addEventListener('submit', (event) => {
             tumbnail,
             category,
             product_name,
-            `R$ ${product_price}`,
+            product_price,
             short_description)
             .then(() => {
 

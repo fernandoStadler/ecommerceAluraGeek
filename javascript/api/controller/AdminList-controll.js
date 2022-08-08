@@ -22,7 +22,7 @@ const listProducts = (
         <div class="description">
         <small>${product_name}</small>
         <p><small>Categoria:</small>${category}</p>
-        <p><strong>${product_price}</strong></p>
+        <p><strong>R$ ${product_price}</strong></p>
         </div>
         <div class="card-btn">
         <button class="btn-editar btn-admin"><a href="/editarProduto.html?id=${id}"><i

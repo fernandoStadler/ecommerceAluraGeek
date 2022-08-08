@@ -1,20 +1,18 @@
 {
     "users":[
         {
-            "id": "",
-            "user_name": "",
-            "email": "",
-            "password": "",
-            "admin_state": 0,
-            "active": 1
+            "id": "1",
+            "user_name": "admin",
+            "email": "admin@admin.com.br",
+            "password": "admin123",
+            "admin_state": 1
         },
         {
-            "id": "",
-            "user_name": "",
-            "email": "",
-            "password": "",
-            "admin_state": 1,
-            "active": 1
+            "id": "2",
+            "user_name": "user",
+            "email": "user@user.com.br",
+            "password": "user123",
+            "admin_state": 1
         }
     ]   
 }

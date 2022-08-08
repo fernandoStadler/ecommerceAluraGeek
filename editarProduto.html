@@ -43,17 +43,10 @@
                     class="fa-solid fa-magnifying-glass"></i></button>
         </section>
     </nav>
-    <div class="brand">
-        <p>Editar produto</p>
-    </div>
+    <section class="brandCrowd">
+        <div data-brandCrowd_name></div>
+    </section>
     <main>
-        <style>
-            .brand{
-                width: 100%;
-                padding: 10px 0px;
-                text-align: center;
-            }
-        </style>
         <section class="login">
             <form data-form_editar>
                 <div class="login-form">
@@ -61,7 +54,7 @@
                     <input type="text" class="input-login" id="categoria" placeholder="Categoria" data-category  autocomplete="off">
                     <input type="text" class="input-login" id="product_name" placeholder="Nome do produto"
                         data-product_name  autocomplete="off">
-                    <input type="text" class="input-login" id="product_price" placeholder="Preço do produto"
+                    <input type="number" class="input-login" id="product_price" placeholder="Preço do produto"
                         data-product_price  autocomplete="off">
                     <input type="text" class="input-login" id="product_description" placeholder="Descrição do produto"
                         data-product_description  autocomplete="off">
@@ -70,15 +63,12 @@
               
             </form>
         </section>
-
-        
-        <style>
-      
-        </style>
     </main>
     <footer>
         <!-- footer carregado via js -->
     </footer>
+    <script src="javascript/app/auth.js"></script>
+    <script src="javascript/app/brandCrowd.js"></script>
     <script type="module" src="javascript/api/controller/UpdateProduct-controller.js"></script>
     <script src="javascript/app/footer.js"></script>
     <script src="https://kit.fontawesome.com/67f504bb87.js" crossorigin="anonymous"></script>

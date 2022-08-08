@@ -14,3 +14,26 @@
     margin: 0 auto;
     justify-content: space-between;
 }
+
+.card-btn {
+    display: flex;
+
+    padding: 10px;
+
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-admin {
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.btn-admin>a{
+    color: black
+}
+.btn-admin:hover, a:hover {
+    color: #2a7ae4;
+}

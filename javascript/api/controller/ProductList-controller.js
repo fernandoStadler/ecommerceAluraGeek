@@ -18,7 +18,7 @@ const listProducts = (
         </picture>
         <div class="description">
             <small>${product_name}</small>
-            <p><strong>${product_price}</strong></p>
+            <p><strong>R$ ${product_price}</strong></p>
             <button class="btn-link">Ver produto</button>
         </div>
         </div>

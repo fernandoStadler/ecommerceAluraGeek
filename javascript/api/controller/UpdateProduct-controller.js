@@ -26,7 +26,7 @@ updateForm.addEventListener('submit', (event) => {
         tumbnail.value,
         category.value,
         product_name.value,
-        `R$ ${product_price.value}`,
+        product_price.value,
         short_description.value)
         .then(() => {
             window.location.href = '/all_products.html'
