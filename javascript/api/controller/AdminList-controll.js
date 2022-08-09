@@ -1,9 +1,6 @@
 
 import { productsSevice } from "../service/product_service.js"
 const cardAdmin = document.querySelector('[data-card-admin]')
-
-
-
 const listProducts = (
     id,
     product_name,
@@ -25,7 +22,7 @@ const listProducts = (
         <p><strong>R$ ${product_price}</strong></p>
         </div>
         <div class="card-btn">
-        <button class="btn-editar btn-admin"><a href="/editarProduto.html?id=${id}"><i
+        <button class="btn-editar btn-admin"><a href="/view/editarProduto.html?id=${id}"><i
         class="fa-solid fa-pen-to-square"></i></a></button>
         <button class="btn-deleted btn-admin"><i
                 class="fa-solid fa-trash-can"></i></button>
@@ -37,8 +34,6 @@ cardAdmin.dataset.id = id;
     return cardAdmin;
 } 
 listProducts();
-
-
 productsSevice.listaProducts()
     .then(data =>{
         data.forEach(element => {
@@ -51,7 +46,6 @@ productsSevice.listaProducts()
         element.short_description))
         });
     })
-
     cardAdmin.addEventListener('click', (event) => {
         let btnDeletar = event.target.className =='fa-solid fa-trash-can';
             if (btnDeletar){
@@ -60,6 +54,7 @@ productsSevice.listaProducts()
                 productsSevice.deletarProducts(id)
                 .then(()=>{
                     divClient.remove();
+                    window.location.reload();
                 })
             }
         })

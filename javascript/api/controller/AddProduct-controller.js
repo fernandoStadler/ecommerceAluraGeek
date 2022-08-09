@@ -1,9 +1,7 @@
 import { productsSevice } from "../service/product_service.js"
 
 const form = document.querySelector('[data-form]');
-const modal = document.querySelector('[data-modal]');
 const modalAlert = document.querySelector('[data-alert]');
-const urlTarget = "/confirm.html"
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -13,8 +11,15 @@ form.addEventListener('submit', (event) => {
     const product_price = event.target.querySelector('[data-product_price]').value;
     const short_description = event.target.querySelector('[data-product_description]').value;
 
-    if (tumbnail && category && product_name && product_price && short_description !== undefined || tumbnail && category && product_name && product_price && short_description !== '') {
-
+    if (tumbnail &&
+        category &&
+        product_name &&
+        product_price && 
+        short_description !== undefined || 
+        tumbnail && category && 
+        product_name && 
+        product_price && 
+        short_description !== '') {
 
         productsSevice.criarProdutcts(
             tumbnail,
@@ -23,8 +28,7 @@ form.addEventListener('submit', (event) => {
             product_price,
             short_description)
             .then(() => {
-
-                window.location.href = "/all_products.html";
+                window.location.href = "/view/all_products.html";
             })
     } else {
         modalAlert.classList.toggle('hidden');

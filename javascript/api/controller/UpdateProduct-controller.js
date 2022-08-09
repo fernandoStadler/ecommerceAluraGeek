@@ -29,6 +29,6 @@ updateForm.addEventListener('submit', (event) => {
         product_price.value,
         short_description.value)
         .then(() => {
-            window.location.href = '/all_products.html'
+            window.location.href = '/view/all_products.html'
         });
 });

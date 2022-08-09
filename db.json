@@ -1,28 +1,28 @@
 {
   "products": [
     {
-      "tumbnail": "https://m.media-amazon.com/images/I/81LSTglQXLL._AC_SL1400_.jpg",
-      "category": "Banda",
-      "product_name": "CD KISS DESTROYER",
-      "product_price": "R$ 666,00",
-      "short_description": "Banda Favorita da Aninha ♥",
+      "tumbnail": "/assets/img/produtos/console_1.png",
+      "category": "Constrole",
+      "product_name": "Controle Xbox One",
+      "product_price": "50",
+      "short_description": "Controle",
+      "id": 2
+    },
+    {
+      "tumbnail": "/assets/img/produtos/console_1.png",
+      "category": "Console 1",
+      "product_name": "Console 1",
+      "product_price": "2500",
+      "short_description": "Console 1",
+      "id": 3
+    },
+    {
+      "tumbnail": "/assets/img/produtos/console_3.png",
+      "category": "Console 2",
+      "product_name": "Console 2",
+      "product_price": "250",
+      "short_description": "Console 2",
       "id": 4
-    },
-    {
-      "tumbnail": "assets/img/produtos/console_2.png",
-      "category": "Controle",
-      "product_name": "Controle 2",
-      "product_price": "26",
-      "short_description": " Controles",
-      "id": 5
-    },
-    {
-      "tumbnail": "assets/img/produtos/console_3.png",
-      "category": "controles",
-      "product_name": "controle 3",
-      "product_price": "36",
-      "short_description": "controle 3",
-      "id": 6
     }
   ]
 }

@@ -18,9 +18,22 @@ main {
 }
 
 .brandCrowd{
-    display: block;
+    display: flex;
     padding: 10px;
+    justify-content: space-between;
+    align-items: center;
     color: blue;
+}
+.btn-logout{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    font-size: 1.1em;
+    color: blue;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .hidden{

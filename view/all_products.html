@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style/global.css">
-    <link rel="stylesheet" href="assets/style/all_products/all_products.css">
+    <link rel="stylesheet" href="/assets/style/global.css">
+    <link rel="stylesheet" href="/assets/style/all_products/all_products.css">
     <title>Alura Geek</title>
 </head>
+
 <body>
     <nav class="navbar">
         <section class="desktop-nav">
-            <a href="index.html">
-                <img src="assets/img/Logo.png" alt="logo">
+            <a href="../index.html">
+                <img src="/assets/img/Logo.png" alt="logo">
             </a>
             <div class="search">
                 <input type="search" name="search" id="input-search" class="input-search"
@@ -22,16 +24,20 @@
                             class="fa-solid fa-magnifying-glass"></i></button>
                 </span>
             </div>
+   
         </section>
         <section class="mobile-nav">
-            <a href="index.html">
-                <img src="assets/img/Logo.png" alt="logo">
+            <a href="../index.html">
+                <img src="/assets/img/Logo.png" alt="logo">
             </a> <button type="button" id="btnSearch" class="btn-search"><i
                     class="fa-solid fa-magnifying-glass"></i></button>
         </section>
     </nav>
     <section class="brandCrowd">
         <div data-brandCrowd_name></div>
+        <div class="logout">
+            <button type="button"  class="btn-logout" data-logout><i class="fa-solid fa-right-from-bracket"></i></button>
+        </div>
     </section>
     <main>
         <section class="display-products">
@@ -53,11 +59,11 @@
     <footer>
         <!-- footer carregado via js -->
     </footer>
-    <script src="javascript/app/auth.js"></script>
-    <script src="javascript/app/brandCrowd.js"></script>
-    <script type="module" src="javascript/api/controller/AdminList-controll.js"></script>
-    <script src="javascript/app/index.js"></script>
-    <script src="javascript/app/footer.js"></script>
+    <script src="/javascript/app/auth.js"></script>
+    <script src="/javascript/app/brandCrowd.js"></script>
+    <script type="module" src="/javascript/api/controller/AdminList-controll.js"></script>
+    <script src="/javascript/app/index.js"></script>
+    <script src="/javascript/app/footer.js"></script>
     <script src="https://kit.fontawesome.com/67f504bb87.js" crossorigin="anonymous"></script>
 </body>
 

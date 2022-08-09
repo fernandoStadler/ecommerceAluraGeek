@@ -1,9 +1,11 @@
 let storage = localStorage.getItem('auth')
-console.log(storage);
 
+let btnLogout = document.querySelector('[data-logout]');
 if (storage == null ){
         window.location.href = "./login.html"; 
-    console.log('Sai Carai');
-
-
 }
+btnLogout.addEventListener('click',()=>{
+        localStorage.removeItem('auth');
+        window.location.href = "./login.html"; 
+
+});

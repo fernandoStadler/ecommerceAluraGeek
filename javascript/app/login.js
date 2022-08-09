@@ -10,7 +10,7 @@ btn.addEventListener('click', () => {
         console.log(userTemp);
         console.log(passwordTemp);
         localStorage.setItem("auth", "logado");
-        window.location.href = "./all_products.html"; 
+        window.location.href = "/view/all_products.html"; 
         
     }else{
         localStorage.removeItem("auth");

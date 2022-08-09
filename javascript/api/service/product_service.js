@@ -8,7 +8,6 @@ const criarProdutcts = (tumbnail,category ,product_name ,product_price, short_de
         product_price: product_price,
         short_description: short_description,
         id: id
-
     }
     return fetch(`${api}/products`, {
         method: 'POST',
@@ -28,7 +27,6 @@ const listaProducts = () => {
         })
 } 
 listaProducts();
-
     const updateProduct = (id,tumbnail,category,product_name ,product_price,short_description) => {
         const dataProductsUpdate = {
             tumbnail: tumbnail,
@@ -37,7 +35,6 @@ listaProducts();
             product_price: product_price,
             short_description: short_description,
             id: id
-    
         }
         return fetch(`${api}/products/${id}`, {
             method: 'PUT',
@@ -48,10 +45,7 @@ listaProducts();
         }) .then(response => {
             return response.json
         });
-    
 }
-
-
 const deletarProducts = (id) => {
     return fetch(`${api}/products/${id}`, {
         method: 'DELETE',
@@ -64,7 +58,6 @@ const searchProduct = (id) => {
         })
 } 
 listaProducts();
-
 export const productsSevice = {
     criarProdutcts,
     listaProducts,

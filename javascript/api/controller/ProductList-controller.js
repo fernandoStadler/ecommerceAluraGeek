@@ -27,8 +27,6 @@ const listProducts = (
     return newCard;
 } 
 listProducts();
-
-
 productsSevice.listaProducts()
     .then(data =>{
         data.forEach(element => {
